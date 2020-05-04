@@ -1,0 +1,7 @@
+<FRAMESET COLS="230,*" FRAMESPACING="0" FRAMEBORDER="0" SCROLLING="no" BORDER="0" 
+      onLoad   = "loaded();">
+  <FRAMESET ROWS="50,*" FRAMESPACING="0" FRAMEBORDER="0" SCROLLING="no" RESIZE="no" BORDER="0">
+         <FRAME NAME="paging"    SCROLLING="no" SRC=%(commandaction)s>
+  </FRAMESET>
+  <FRAME NAME="thumb" SRC="%(thumbaction)s" >
+</FRAMESET>

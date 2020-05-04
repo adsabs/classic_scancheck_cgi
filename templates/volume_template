@@ -1,0 +1,47 @@
+<BODY BGCOLOR="#ffffff">
+<center>
+<FORM NAME=volume_form>
+<TABLE WIDTH=650>
+<TR>
+</TR>
+<TR>
+</TR>
+<TR><TD>
+<ul>
+<br>
+<FONT FACE=arial>
+ADS Scan Checking Facility
+</font>
+<br><br>
+Bibstem: <FONT COLOR="#ff0000"><I>%(bibstem)s</I></FONT>
+<INPUT TYPE=hidden NAME=bibstem VALUE="%(bibstem)s">
+<br>
+<INPUT TYPE=hidden NAME=jdir VALUE="%(directory)s">
+<INPUT TYPE=hidden NAME=group VALUE=%(group)s>
+<INPUT TYPE=hidden NAME=rows VALUE=%(rows)s>
+<INPUT TYPE=hidden NAME=columns VALUE=%(cols)s>
+<br>
+<br>
+<DL>
+Select volume: 
+%(vollist)s
+<br><br>
+<!-- <input type="checkbox" name="showsource">
+Select to show source of image (id of CD/DVD with scans)
+<br> -->
+<br>
+<INPUT TYPE=submit VALUE="Enter">
+
+<BR>
+<IMG SRC="/imgs/copyright_letters/%(copyright)s" ALIGN=left>
+</dd>
+</DL>
+</ul>
+
+</FONT>
+</TD>
+</TR>
+</TABLE>
+</FORM>
+</center>
+</BODY>

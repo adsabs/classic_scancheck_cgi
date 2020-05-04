@@ -1,0 +1,8 @@
+<BODY BGCOLOR="%(background)s">
+Journal : %(journal)s &nbsp;&nbsp; | &nbsp;&nbsp;
+Volume : %(volume)s &nbsp;&nbsp; | &nbsp;&nbsp;
+Image nr : %(imageno)s<BR><BR>
+<FONT COLOR="#0000ff">
+<PRE>%(message)s</PRE>
+</FONT>
+</BODY>

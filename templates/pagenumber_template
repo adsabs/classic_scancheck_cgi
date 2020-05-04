@@ -1,0 +1,95 @@
+<!-- <BODY BGCOLOR="#ffffff" onLoad="getCurrent();"> -->
+<BODY BGCOLOR="#ffffff">
+<form name="form1"> 
+
+<!--  <table>
+  <tr>
+    <td align="left">
+      <a href="javascript:parent.changeSession();"><b>Other sessions</b></a>
+    </td>
+    <td align="right">
+      <a target="_histhelp" href="http://adsmail.harvard.edu/historical/pages.html#Page_Numbering"><b>Help</b></a>
+    </td>
+  </table> 
+
+  <hr noshade size="3"> -->
+
+  <table cellspacing="10">
+  <tr>
+    <td bgcolor="#ececdd" align="right">
+       Image#: 
+    </td>
+    <td valign="top"> 
+       <input name="imageno" type="text" size="5"> 
+       <input name="goimg"   type="button" value="Go" onClick="loadImage();"> 
+    </td>
+  </tr>
+  </table>
+  <table>
+<!--  <tr>
+    <td colspan="2">
+       <li><b>Page Type:</b>
+    </td>
+  </tr> --><tr>
+    <td colspan="2">
+       <input type="radio" name="pagetype" value="1" checked>Body
+       <input type="radio" name="pagetype" value="I">Insert
+       <input type="radio" name="pagetype" value="P">Plate
+       <br>
+       <input type="radio" name="pagetype" value="F">Front Matter
+       <input type="radio" name="pagetype" value="B">Back Matter
+    </td>
+  </tr> 
+  <tr>
+     <td bgcolor="#ececdd" align="right">
+        Page#: 
+    </td>
+    <td valign="top"> 
+        <input type="text" name="pageno" size="7" onChange="pagechange();">
+        <input type="button" name="change" value="Set" onClick="pagechange();"> 
+     </td>
+  </tr>
+<tr>
+     <td colspan="2">
+        <li><b>Ignore:</b>
+        <br>
+        <font size="-1">
+        <input type="radio"  name="ignorereason"  value="dup"> Duplicate page
+        <br>
+        <input type="radio"  name="ignorereason"  value="other"> Other:
+        <input type="text"   name="ignorecomment" size="15">
+        <br>
+        <input type="button" name="doignore" value="Ignore" onClick="ignore();"> 
+        </font>
+    </td>
+  </tr><tr>
+     <td colspan="2">
+        <li><b>Comments:</b>
+        <br>
+        <textarea wrap="virtual" cols="20" rows="3" name="pagecomment"></textarea>
+        <input type="button" name="sendcomment" value="Save" onClick="savecomment();"> 
+     </td>
+  </tr><tr>
+     <td colspan="2">
+      <a href="javascript:parent.showComment();"><b>View Saved Comments</b></a>
+     </td>
+  </tr><tr>
+     <td colspan="2">
+        <hr width="100%%" noshade>
+        <li><b>Last Image Marked:</b>
+        <br>
+       <input name="lastimg" type="text" size="5"> 
+       <input name="golast"   type="button" value="Go" onClick="gomark();"> 
+        <br>
+       <!-- See <a href=#>Page Table</a> -->
+
+<hr width="100%%" noshade>
+Click when finish with page numbering:
+<input type="button" value="Finish" onClick="endnumbering();">
+<br><br>
+<!-- <input type="button" value="tmp" onClick="showComment();"> -->
+</form>
+    </td>
+  </tr>
+</table>
+

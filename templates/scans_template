@@ -1,0 +1,40 @@
+<BODY BGCOLOR="#ffffff">
+<center>
+<FORM NAME=scans_form>
+<TABLE WIDTH=650>
+<TR>
+</TR>
+<TR>
+</TR>
+<TR><TD>
+<ul>
+<br>
+<FONT FACE=arial>
+ADS Scan Checking Facility
+</font>
+<br><br>
+Bibstem: <FONT COLOR="#ff0000"><I>%(bibstem)s</I></FONT>
+<br>
+Volume: <FONT COLOR="#ff0000"><I>%(volume)s</I></FONT>
+<br>
+<INPUT TYPE=hidden NAME=imgdir VALUE="%(imgdir)s">
+<INPUT TYPE=hidden NAME=group VALUE=%(group)s>
+<INPUT TYPE=hidden NAME=journal VALUE=%(bibstem)s>
+<INPUT TYPE=hidden NAME=volume VALUE=%(volume)s>
+<INPUT TYPE=hidden NAME=source VALUE=%(showsource)s>
+<br>
+<DL>
+<!-- <INPUT TYPE=submit VALUE="Check scans" target="output"> -->
+<A HREF=hSession.py?group=%(group)s&journal=%(bibstem)s&volume=%(volume)s&columns=%(columns)s&rows=%(rows)s&source=%(showsource)s>Check scans</A>
+<BR>
+</dd>
+</DL>
+</ul>
+
+</FONT>
+</TD>
+</TR>
+</TABLE>
+</FORM>
+</center>
+</BODY>

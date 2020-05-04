@@ -1,0 +1,51 @@
+<BODY BGCOLOR="#ffffff">
+<center>
+<FORM NAME=login_form>
+<TABLE WIDTH=650>
+<TR></TR>
+<TR>
+</TR>
+<TR><TD>
+<ul>
+<br>
+<FONT FACE=arial>
+ADS Scan Checking Facility
+</font>
+<br><br>
+<FONT COLOR="#ff0000"><I>%(messg)s</I></FONT>
+<br>
+<DL>
+Specify bibstem: <INPUT TYPE=text NAME=bibstem SIZE=5>&nbsp;&nbsp;&nbsp;
+(for e.g. a conference, like "2000pras.conf", just specify "pras")
+<BR><BR>
+Number of columns in display: 
+<SELECT NAME=columns>
+<OPTION value="3">3</OPTION>
+<OPTION value="4">4</OPTION>
+<OPTION value="5" selected>5</OPTION>
+<OPTION value="6">6</OPTION>
+<OPTION value="7">7</OPTION>
+</SELECT>
+<BR>
+Number of rows in display:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<!-- <SELECT NAME=rows>
+<OPTION value="3">3</OPTION>
+<OPTION value="4" selected>4</OPTION>
+<OPTION value="5">5</OPTION> 
+<OPTION value="6">6</OPTION>
+</SELECT> -->
+<INPUT TYPE=text NAME=rows SIZE=5 VALUE=100>
+<BR><BR>
+<INPUT TYPE=submit VALUE="Enter">
+<BR>
+</dd>
+</DL>
+</ul>
+
+</FONT>
+</TD>
+</TR>
+</TABLE>
+</FORM>
+</center>
+</BODY>
