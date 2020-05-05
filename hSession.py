@@ -177,10 +177,7 @@ if __name__ == '__main__':
        cnf = read_webform()
        cnf['journal'] = re.sub('\ ','+',cnf['journal'])
      else:
-       #cnf = {'id':'ygXggJUWIG'}
-       cnf = {'user':'swordfish'}
-       #cnf = {}
-#     cnf = {'group':'seri','journal':'O+T..','volume':'0001','source':'foo'}
+       cnf = {'group':'seri','journal':'O+T..','volume':'0001','source':'foo'}
      print Session(title="ADS Scan Checking Facility",cnf=cnf)
 
   except KeyboardInterrupt:
