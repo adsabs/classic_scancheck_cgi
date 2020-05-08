@@ -1,6 +1,4 @@
 #!/usr/bin/env python
-#!/usr/local/bin/python
-#  
 
 from WebPage import WebPage, read_webform
 

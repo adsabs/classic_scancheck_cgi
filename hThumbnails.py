@@ -1,6 +1,5 @@
 #!/usr/bin/env python
-#!/usr/local/bin/python
-#  
+
 import sys
 sys.path.append('/proj/ads/soft/python/lib/site-packages')
 from WebPage import WebPage, read_webform

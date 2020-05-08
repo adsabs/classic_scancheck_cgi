@@ -1,6 +1,5 @@
 #!/usr/bin/env python
-#!/usr/local/bin/python
-#  
+
 import sys
 import glob
 sys.path.append('/proj/ads/soft/python/lib/site-packages')
