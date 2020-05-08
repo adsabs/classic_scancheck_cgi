@@ -33,7 +33,7 @@ Select to show source of image (id of CD/DVD with scans)
 <INPUT TYPE=submit VALUE="Enter">
 
 <BR>
-<IMG SRC="/imgs/copyright_letters/%(copyright)s" ALIGN=left>
+<!--<IMG SRC="/imgs/copyright_letters/%(copyright)s" ALIGN=left>-->
 </dd>
 </DL>
 </ul>
