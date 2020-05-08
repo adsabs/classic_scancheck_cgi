@@ -1,4 +1,4 @@
-#!/proj/ads/soft/bin/python
+#!/usr/bin/env python
 
 from UserDict import UserDict
 
